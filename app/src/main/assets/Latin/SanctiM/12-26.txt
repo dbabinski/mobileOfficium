@@ -1,0 +1,17 @@
+@Sancti/12-26
+
+[Rank]
+S. Stephani Protomartyris;;Duplex II class;;4.9;;ex C2
+
+[Capitulum Laudes]
+@Sancti/12-26
+_
+@Commune/C2:Responsory Tertia:1-6
+
+[Capitulum Vespera]
+@Commune/C2:Capitulum Laudes
+_
+@Commune/C2:Responsory Sexta:1-6
+
+[Ant Vespera 3]
+@Sancti/12-25::s/129/131/

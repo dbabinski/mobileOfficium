@@ -1,0 +1,9 @@
+[Rank]
+Die VII infram Octavam Nativitatem Domini;;Duplex II class;;4.9;;ex Sancti/12-25
+
+[Rule]
+CPapaC=Silvéstrum;
+
+[Commemoratio 2]
+!Commemoratio Sancti Silvestri Papæ
+@Commune/C4:Oratio Gregem

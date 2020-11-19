@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">DivinumOfficium</string>
+    <string name="action_settings">Settings</string>
+    <string name="big_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nunc laoreet sagittis ex. Nulla in leo mollis, consectetur erat gravida,
+        pellentesque diam. Ut nibh erat, porttitor nec quam quis, molestie aliquet tellus.
+        Ut venenatis neque in sollicitudin pharetra. Morbi malesuada urna fringilla,
+        luctus elit ut, suscipit nibh. Nullam vitae pretium sem, at congue nunc.
+        Fusce auctor blandit suscipit. Fusce ultrices urna eros. Donec nec gravida tortor.
+        Vivamus in ligula lectus.
+
+        Aenean viverra, lacus in tempor volutpat, nulla tellus porta magna, eu efficitur odio nibh ut ipsum.
+        Sed auctor velit eget nibh fermentum dictum. Donec sollicitudin egestas molestie.
+        Nunc aliquam mi nec cursus ultrices. Duis tristique sed metus nec dignissim.
+        Proin id ex blandit, congue elit vel, pulvinar tortor. Nulla rutrum, leo at congue venenatis,
+        turpis nulla egestas est, vitae cursus tortor mauris at urna. Suspendisse pellentesque faucibus
+        augue a varius. Donec cursus elementum magna et pharetra.
+
+        Duis ut enim justo. Nulla facilisi. Sed ac suscipit elit, nec condimentum magna.
+        Donec sed tortor auctor massa consectetur faucibus. Vivamus porta feugiat condimentum.
+        Vestibulum eget tellus non leo auctor vulputate at sed ipsum. Cras eu turpis est.
+        Aenean lacinia pharetra enim, et posuere ex accumsan sollicitudin. Curabitur in nisi id
+        felis molestie pellentesque. Duis cursus euismod imperdiet.
+
+        Aliquam fermentum consequat risus, quis bibendum ipsum sagittis sed.
+        Nullam eget pretium elit. Duis vitae augue mauris. Sed vitae luctus est.
+        Quisque eu sem sed lorem dictum luctus sit amet tincidunt nisl. Integer nec
+        tempus lacus. Curabitur quis neque malesuada, tincidunt diam sit amet, lobortis felis.
+
+        Integer dictum magna in est varius, vel volutpat nulla laoreet.
+        Duis eu odio in velit tempus mollis sed in orci. Maecenas pretium, eros id
+        commodo iaculis, arcu lacus ultrices nibh, ac vehicula augue orci sit amet quam.
+        Integer cursus consequat purus eget sodales. Donec eu dictum quam. Morbi convallis
+        risus tortor, a bibendum tellus tincidunt non. Ut non finibus sapien. Sed volutpat
+        elementum dolor, vel tristique est. Phasellus quis blandit elit. Nam vitae dui est.
+        Morbi sodales enim scelerisque sapien dapibus, sed faucibus dolor porttitor.
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nunc laoreet sagittis ex. Nulla in leo mollis, consectetur erat gravida,
+        pellentesque diam. Ut nibh erat, porttitor nec quam quis, molestie aliquet tellus.
+        Ut venenatis neque in sollicitudin pharetra. Morbi malesuada urna fringilla,
+        luctus elit ut, suscipit nibh. Nullam vitae pretium sem, at congue nunc.
+        Fusce auctor blandit suscipit. Fusce ultrices urna eros. Donec nec gravida tortor.
+        Vivamus in ligula lectus.
+
+        Aenean viverra, lacus in tempor volutpat, nulla tellus porta magna, eu efficitur odio nibh ut ipsum.
+        Sed auctor velit eget nibh fermentum dictum. Donec sollicitudin egestas molestie.
+        Nunc aliquam mi nec cursus ultrices. Duis tristique sed metus nec dignissim.
+        Proin id ex blandit, congue elit vel, pulvinar tortor. Nulla rutrum, leo at congue venenatis,
+        turpis nulla egestas est, vitae cursus tortor mauris at urna. Suspendisse pellentesque faucibus
+        augue a varius. Donec cursus elementum magna et pharetra.
+
+        Duis ut enim justo. Nulla facilisi. Sed ac suscipit elit, nec condimentum magna.
+        Donec sed tortor auctor massa consectetur faucibus. Vivamus porta feugiat condimentum.
+        Vestibulum eget tellus non leo auctor vulputate at sed ipsum. Cras eu turpis est.
+        Aenean lacinia pharetra enim, et posuere ex accumsan sollicitudin. Curabitur in nisi id
+        felis molestie pellentesque. Duis cursus euismod imperdiet.
+
+        Aliquam fermentum consequat risus, quis bibendum ipsum sagittis sed.
+        Nullam eget pretium elit. Duis vitae augue mauris. Sed vitae luctus est.
+        Quisque eu sem sed lorem dictum luctus sit amet tincidunt nisl. Integer nec
+        tempus lacus. Curabitur quis neque malesuada, tincidunt diam sit amet, lobortis felis.
+
+        Integer dictum magna in est varius, vel volutpat nulla laoreet.
+        Duis eu odio in velit tempus mollis sed in orci. Maecenas pretium, eros id
+        commodo iaculis, arcu lacus ultrices nibh, ac vehicula augue orci sit amet quam.
+        Integer cursus consequat purus eget sodales. Donec eu dictum quam. Morbi convallis
+        risus tortor, a bibendum tellus tincidunt non. Ut non finibus sapien. Sed volutpat
+        elementum dolor, vel tristique est. Phasellus quis blandit elit. Nam vitae dui est.
+        Morbi sodales enim scelerisque sapien dapibus, sed faucibus dolor porttitor.
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nunc laoreet sagittis ex. Nulla in leo mollis, consectetur erat gravida,
+        pellentesque diam. Ut nibh erat, porttitor nec quam quis, molestie aliquet tellus.
+        Ut venenatis neque in sollicitudin pharetra. Morbi malesuada urna fringilla,
+        luctus elit ut, suscipit nibh. Nullam vitae pretium sem, at congue nunc.
+        Fusce auctor blandit suscipit. Fusce ultrices urna eros. Donec nec gravida tortor.
+        Vivamus in ligula lectus.
+
+        Aenean viverra, lacus in tempor volutpat, nulla tellus porta magna, eu efficitur odio nibh ut ipsum.
+        Sed auctor velit eget nibh fermentum dictum. Donec sollicitudin egestas molestie.
+        Nunc aliquam mi nec cursus ultrices. Duis tristique sed metus nec dignissim.
+        Proin id ex blandit, congue elit vel, pulvinar tortor. Nulla rutrum, leo at congue venenatis,
+        turpis nulla egestas est, vitae cursus tortor mauris at urna. Suspendisse pellentesque faucibus
+        augue a varius. Donec cursus elementum magna et pharetra.
+
+        Duis ut enim justo. Nulla facilisi. Sed ac suscipit elit, nec condimentum magna.
+        Donec sed tortor auctor massa consectetur faucibus. Vivamus porta feugiat condimentum.
+        Vestibulum eget tellus non leo auctor vulputate at sed ipsum. Cras eu turpis est.
+        Aenean lacinia pharetra enim, et posuere ex accumsan sollicitudin. Curabitur in nisi id
+        felis molestie pellentesque. Duis cursus euismod imperdiet.
+
+        Aliquam fermentum consequat risus, quis bibendum ipsum sagittis sed.
+        Nullam eget pretium elit. Duis vitae augue mauris. Sed vitae luctus est.
+        Quisque eu sem sed lorem dictum luctus sit amet tincidunt nisl. Integer nec
+        tempus lacus. Curabitur quis neque malesuada, tincidunt diam sit amet, lobortis felis.
+
+        Integer dictum magna in est varius, vel volutpat nulla laoreet.
+        Duis eu odio in velit tempus mollis sed in orci. Maecenas pretium, eros id
+        commodo iaculis, arcu lacus ultrices nibh, ac vehicula augue orci sit amet quam.
+        Integer cursus consequat purus eget sodales. Donec eu dictum quam. Morbi convallis
+        risus tortor, a bibendum tellus tincidunt non. Ut non finibus sapien. Sed volutpat
+        elementum dolor, vel tristique est. Phasellus quis blandit elit. Nam vitae dui est.
+        Morbi sodales enim scelerisque sapien dapibus, sed faucibus dolor porttitor.
+    </string>
+</resources>

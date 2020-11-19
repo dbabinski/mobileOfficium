@@ -1,0 +1,8 @@
+[Rank]
+Die V infram Octavam Nativitatem Domini;;Duplex II class;;4.9;;ex Sancti/12-25
+
+[Rule]
+no commemoratio
+
+[Ant Vespera 3]
+@Sancti/12-25::s/129.*/129/s

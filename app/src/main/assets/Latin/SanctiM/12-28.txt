@@ -1,0 +1,11 @@
+@Sancti/12-28
+
+[Capitulum Laudes]
+@Sancti/12-28
+_
+@Commune/C3:Responsory Tertia:1-6
+
+[Capitulum Vespera]
+@Sancti/12-28:Capitulum Laudes
+_
+@Commune/C3:Responsory Sexta:1-6

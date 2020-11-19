@@ -1,0 +1,37 @@
+@Sancti/01-01
+
+[Rank]
+Die Octavæ Nativitatis Domini;;Duplex I classis;;7;;ex Sancti/12-25
+
+[Capitulum Vespera]
+@Sancti/01-01
+_
+@Sancti/12-25:Responsory Tertia:1-6
+
+[Versum 1]
+@Sancti/12-25:Versum 2
+
+[Capitulum Laudes]
+@Sancti/01-01
+_
+@Sancti/12-25:Responsory Sexta:1-6
+
+[Responsory Tertia]
+@Sancti/12-25:Responsory Nona:8-9
+
+[Responsory Sexta]
+@Sancti/12-25:Versum 2
+
+[Capitulum Sexta]
+@Sancti/12-25
+
+[Responsory Nona]
+@Sancti/12-25:Responsory Sexta:8-9
+
+[Capitulum Nona]
+@Sancti/12-25
+
+[LectioE]
+v. Sequéntia sancti Evangélii secúndum Lucam
+!Luc 2:21
+2:21 Postquam consummáti sunt dies octo, ut circumciderétur puer, vocátum est nomen ejus Jesus, quod vocátum est ab ángelo priúsquam in útero conciperétur.
