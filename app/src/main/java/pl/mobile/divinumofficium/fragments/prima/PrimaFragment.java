@@ -24,13 +24,13 @@ public class PrimaFragment extends Fragment {
         primaViewModel = new ViewModelProvider(this).get(PrimaViewModel.class);
         View root = inflater.inflate(R.layout.prima_fragment, container, false);
 
-        final TextView textView = root.findViewById(R.id.prima_txt);
-        primaViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(String s) {
-                textView.setText(s);
-            }
-        });
+//        final TextView textView = root.findViewById(R.id.prima_txt);
+//        primaViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+//            @Override
+//            public void onChanged(String s) {
+//                textView.setText(s);
+//            }
+//        });
 
         return root;
     }

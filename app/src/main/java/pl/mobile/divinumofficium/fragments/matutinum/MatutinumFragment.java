@@ -31,13 +31,6 @@ public class MatutinumFragment extends Fragment {
         matutinumViewModel = new ViewModelProvider(this).get(MatutinumViewModel.class);
         View root = inflater.inflate(R.layout.matutinum_fragment, container, false);
 
-        final TextView textView = root.findViewById(R.id.prima_txt);
-        matutinumViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(String s) {
-                textView.setText(s);
-            }
-        });
 
         return root;
     }
