@@ -2,19 +2,19 @@ package pl.mobile.divinumofficium;
 
 
 import android.os.Bundle;
-
-import com.google.android.material.appbar.CollapsingToolbarLayout;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.TextView;
+import com.google.android.material.appbar.CollapsingToolbarLayout;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Locale;
+import java.util.TimeZone;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -24,11 +24,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+//---------toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         CollapsingToolbarLayout toolBarLayout = (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);
         toolBarLayout.setTitle(" ");
+
+//---------dynamic date
+        Calendar c = Calendar.getInstance(TimeZone.getTimeZone("GMT"), Locale.getDefault());
+        SimpleDateFormat df = new SimpleDateFormat("dd LLL G. yyyy");
+        String currentDate = df.format(c.getTime());
+        TextView date_text = (TextView) findViewById(R.id.toolbar_date);
+        date_text.setText(currentDate);
 
     }
 
