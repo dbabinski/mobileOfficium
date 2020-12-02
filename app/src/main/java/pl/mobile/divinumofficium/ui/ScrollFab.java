@@ -44,7 +44,6 @@ public class ScrollFab extends FloatingActionButton.Behavior {
             });
 
         } else if (dyConsumed < 0 && child.getVisibility() != View.VISIBLE){
-
             child.show();
         }
 

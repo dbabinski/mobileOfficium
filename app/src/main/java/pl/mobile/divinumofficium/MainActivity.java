@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
         CollapsingToolbarLayout toolBarLayout = (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);
         toolBarLayout.setTitle(" ");
 
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 //---------dynamic date
         Calendar c = Calendar.getInstance(TimeZone.getTimeZone("GMT"), Locale.getDefault());
         SimpleDateFormat df = new SimpleDateFormat("dd LLL G. yyyy");
@@ -45,12 +48,13 @@ public class MainActivity extends AppCompatActivity {
         TextView date_text = (TextView) findViewById(R.id.toolbar_date);
         date_text.setText(currentDate);
 
+//---------drawer_layout(HAMBURGER_DON'T_WORK)
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_matutinum, R.id.nav_laudes, R.id.nav_prima)
-                .setDrawerLayout(drawer)
+                .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
