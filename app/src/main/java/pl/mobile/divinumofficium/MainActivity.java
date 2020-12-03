@@ -2,6 +2,7 @@ package pl.mobile.divinumofficium;
 
 
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
@@ -26,7 +27,7 @@ import java.util.TimeZone;
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
-
+    private DrawerLayout drawer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         TextView date_text = (TextView) findViewById(R.id.toolbar_date);
         date_text.setText(currentDate);
 
-//---------drawer_layout(HAMBURGER_DON'T_WORK)
+//---------drawer_layout
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
@@ -74,6 +75,10 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
 
         int id = item.getItemId();
+        drawer = findViewById(R.id.drawer_layout);
+        if(item.getItemId() == android.R.id.home){
+            drawer.openDrawer(Gravity.LEFT);
+        }
 
         if (id == R.id.action_settings) {
             return true;
