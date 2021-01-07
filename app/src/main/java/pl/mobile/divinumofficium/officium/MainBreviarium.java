@@ -1,4 +1,4 @@
-package pl.mobile.divinumofficium.breviarium;
+package pl.mobile.divinumofficium.officium;
 
 
 import android.os.Bundle;

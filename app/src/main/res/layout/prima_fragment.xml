@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".breviarium.fragments.matutinum.MatutinumFragment">
+    tools:context=".officium.fragments.matutinum.MatutinumFragment">
 
     <TextView
         android:id="@+id/prima_txt"

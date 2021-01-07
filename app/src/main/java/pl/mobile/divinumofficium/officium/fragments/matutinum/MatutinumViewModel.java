@@ -1,14 +1,14 @@
-package pl.mobile.divinumofficium.breviarium.fragments.prima;
+package pl.mobile.divinumofficium.officium.fragments.matutinum;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class PrimaViewModel extends ViewModel {
+public class MatutinumViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public PrimaViewModel(){
+    public MatutinumViewModel(){
         mText = new MutableLiveData<>();
         mText.setValue("Prima");
     }

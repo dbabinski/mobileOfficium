@@ -1,4 +1,4 @@
-package pl.mobile.divinumofficium.breviarium.fragments.matutinum;
+package pl.mobile.divinumofficium.officium.fragments.matutinum;
 
 import androidx.lifecycle.ViewModelProvider;
 

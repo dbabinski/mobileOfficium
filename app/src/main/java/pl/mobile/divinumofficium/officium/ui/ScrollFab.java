@@ -1,4 +1,4 @@
-package pl.mobile.divinumofficium.breviarium.ui;
+package pl.mobile.divinumofficium.officium.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;

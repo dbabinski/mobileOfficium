@@ -1,4 +1,4 @@
-package pl.mobile.divinumofficium.breviarium.fragments.prima;
+package pl.mobile.divinumofficium.officium.fragments.prima;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;

@@ -1,4 +1,4 @@
-package pl.mobile.divinumofficium.breviarium.fragments.laudes;
+package pl.mobile.divinumofficium.officium.fragments.laudes;
 
 import androidx.lifecycle.ViewModel;
 
