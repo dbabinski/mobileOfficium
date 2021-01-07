@@ -1,6 +1,5 @@
-package pl.mobile.divinumofficium.fragments.matutinum;
+package pl.mobile.divinumofficium.breviarium.fragments.matutinum;
 
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.os.Bundle;
@@ -12,10 +11,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import pl.mobile.divinumofficium.R;
-import pl.mobile.divinumofficium.fragments.prima.PrimaViewModel;
 
 public class MatutinumFragment extends Fragment {
 

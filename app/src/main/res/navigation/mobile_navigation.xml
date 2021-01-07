@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_matutinum"
-        android:name="pl.mobile.divinumofficium.fragments.matutinum.MatutinumFragment"
+        android:name="pl.mobile.divinumofficium.breviarium.fragments.matutinum.MatutinumFragment"
         android:label="@string/menu_matutinum"
         tools:layout="@layout/matutinum_fragment" />
 
     <fragment
         android:id="@+id/nav_laudes"
-        android:name="pl.mobile.divinumofficium.fragments.laudes.LaudesFragment"
+        android:name="pl.mobile.divinumofficium.breviarium.fragments.laudes.LaudesFragment"
         android:label="@string/menu_laudes"
         tools:layout="@layout/laudes_fragment" />
 
     <fragment
         android:id="@+id/nav_prima"
-        android:name="pl.mobile.divinumofficium.fragments.prima.PrimaFragment"
+        android:name="pl.mobile.divinumofficium.breviarium.fragments.prima.PrimaFragment"
         android:label="@string/menu_prima"
         tools:layout="@layout/prima_fragment" />
 </navigation>

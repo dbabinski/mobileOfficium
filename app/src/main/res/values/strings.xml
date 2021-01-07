@@ -496,4 +496,22 @@
     <string name="menu_matutinum">Matutinum</string>
     <string name="menu_laudes">Laudes</string>
     <string name="menu_prima">Prima</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_xyz">Xyz</string>
+    <string name="matutinum_tab_txt">Matutinum</string>
+    <string name="prima_tab_txt">Prima</string>
+    <string name="laudes_tab_txt">Laudes</string>
+    <string name="tertia_tab_txt">Tertia</string>
+    <string name="sexta_tab_txt">Sexta</string>
+    <string name="nona_tab_txt">Nona</string>
+    <string name="vesperes_tab_txt">Vesperes</string>
+    <string name="completorium_tab_txt">Completorium</string>
 </resources>

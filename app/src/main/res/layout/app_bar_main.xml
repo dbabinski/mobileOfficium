@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".breviarium.MainBreviarium">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
@@ -58,7 +58,7 @@
         android:id="@+id/content_scrolling_id"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        app:layout_behavior="pl.mobile.divinumofficium.ui.ScrollFab"
+        app:layout_behavior=".breviarium.ui.ScrollFab"
         android:id="@+id/main_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

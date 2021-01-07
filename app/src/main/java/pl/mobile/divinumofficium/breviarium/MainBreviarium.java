@@ -1,4 +1,4 @@
-package pl.mobile.divinumofficium;
+package pl.mobile.divinumofficium.breviarium;
 
 
 import android.os.Bundle;
@@ -23,15 +23,17 @@ import java.util.Calendar;
 import java.util.Locale;
 import java.util.TimeZone;
 
+import pl.mobile.divinumofficium.R;
 
-public class MainActivity extends AppCompatActivity {
+
+public class MainBreviarium extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private DrawerLayout drawer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_breviarium);
 
 //---------toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);

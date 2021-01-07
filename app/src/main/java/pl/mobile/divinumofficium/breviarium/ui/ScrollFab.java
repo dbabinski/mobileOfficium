@@ -1,16 +1,13 @@
-package pl.mobile.divinumofficium.ui;
+package pl.mobile.divinumofficium.breviarium.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.core.view.ViewCompat;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
-import pl.mobile.divinumofficium.R;
 
 public class ScrollFab extends FloatingActionButton.Behavior {
 
@@ -46,14 +43,9 @@ public class ScrollFab extends FloatingActionButton.Behavior {
         } else if (dyConsumed < 0 && child.getVisibility() != View.VISIBLE){
             child.show();
         }
-
     }
-
     public ScrollFab (Context context, AttributeSet attrs) {
         super();
     }
-
-
-
 }
 
