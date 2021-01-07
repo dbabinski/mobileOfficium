@@ -46,24 +46,7 @@
         android:layout_marginBottom="40dp"
         android:paddingStart="60dp"
         android:paddingEnd="60dp"
-        app:layout_constraintBottom_toTopOf="@+id/bottom_nav_bar"
-        app:layout_constraintTop_toTopOf="@+id/text_quotes_about" />
-
-    <me.ibrahimsn.lib.SmoothBottomBar
-        android:id="@+id/bottom_nav_bar"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        app:menu="@menu/navigation_menu"
-        app:layout_constraintTop_toBottomOf="@+id/ViewPager"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        app:iconSize="20dp"
-        app:backgroundColor="#222222"
-        app:indicatorColor="#444444"
-        app:textColor="@color/main_variant_color"
-        app:iconTintActive="@color/main_variant_color"
-        app:textSize="15sp" />
-
+        app:layout_constraintTop_toTopOf="@+id/text_quotes_about" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
