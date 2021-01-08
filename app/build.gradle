@@ -47,8 +47,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     compileOnly 'com.google.android.wearable:wearable:2.6.0'
 
-    implementation 'com.squareup.picasso:picasso:2.71828'
-    implementation 'com.flaviofaria:kenburnsview:1.0.7'
+    implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2'
     implementation 'com.github.ibrahimsn98:SmoothBottomBar:1.7.6'
 
 }
