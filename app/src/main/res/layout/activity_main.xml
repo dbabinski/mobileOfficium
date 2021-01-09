@@ -15,7 +15,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
-        android:text="Lorem Ipsum dolor sit amet"
+        android:text=""
         android:textColor="#999999"
         android:textStyle="bold"
         android:textSize="30sp"

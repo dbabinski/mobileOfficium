@@ -493,6 +493,11 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
 
+    <!--    Strings for main activity menu-->
+    <string name="mainAct_Officium">Officium</string>
+    <string name="mainAct_Vulgata">Vulgata</string>
+    <string name="mainAct_Preces">Preces</string>
+
     <string name="menu_matutinum">Matutinum</string>
     <string name="menu_laudes">Laudes</string>
     <string name="menu_prima">Prima</string>
@@ -517,4 +522,14 @@
     values-round/strings.xml for round devices.
     -->
     <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_main_vulgata">MainVulgata</string>
+
+    <string name="title_activity_main_preces">MainPreces</string>
+
+    <string-array name="main_act_quutes">
+        <item>A solis ortus cardine </item>
+        <item>A superbia initium sumpsit omnis perditio </item>
+        <item>Absolutio ad cautelam </item>
+        <item>Ante portam latinam </item>
+    </string-array>
 </resources>

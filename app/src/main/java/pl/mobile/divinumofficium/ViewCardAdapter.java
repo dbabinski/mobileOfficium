@@ -15,6 +15,8 @@ import androidx.viewpager.widget.PagerAdapter;
 import java.util.ArrayList;
 
 import pl.mobile.divinumofficium.officium.MainBreviarium;
+import pl.mobile.divinumofficium.preces.MainPreces;
+import pl.mobile.divinumofficium.vulgata.MainVulgata;
 
 import static androidx.core.content.ContextCompat.startActivity;
 
@@ -47,11 +49,27 @@ public class ViewCardAdapter extends PagerAdapter {
         TextView titleCard = view.findViewById(R.id.cardTitle);
 
         ViewCardModel model = modelArrayList.get(position);
-        final String title = model.getTitle();
+        final int title = model.getTitle();
         final int image = model.getImage();
 
         imageCard.setImageResource(image);
         titleCard.setText(title);
+
+        view.setOnClickListener(v -> {
+
+            if(model.getTitle() == R.string.mainAct_Officium) {
+                Intent intent = new Intent(view.getContext(), MainBreviarium.class);
+                view.getContext().startActivity(intent);
+
+            } else if (model.getTitle() == R.string.mainAct_Vulgata) {
+                Intent intent = new Intent(view.getContext(), MainVulgata.class);
+                view.getContext().startActivity(intent);
+
+            } else {
+                Intent intent = new Intent(view.getContext(), MainPreces.class);
+                view.getContext().startActivity(intent);
+            }
+        });
 
         container.addView(view, position);
         

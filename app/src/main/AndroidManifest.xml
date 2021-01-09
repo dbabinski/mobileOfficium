@@ -11,20 +11,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DivinumOfficium">
+
+        <activity
+            android:name=".preces.MainPreces"
+            android:label="MainPreces"
+            android:theme="@style/Theme.DivinumOfficium.NoActionBar">
+
+        </activity>
+
+        <activity
+            android:name=".vulgata.MainVulgata"
+            android:label="@string/title_activity_main_vulgata"
+            android:theme="@style/Theme.DivinumOfficium.NoActionBar" />
+
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.DivinumOfficium.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".officium.MainBreviarium"
             android:label="@string/title_activity_officium"
-            android:theme="@style/Theme.DivinumOfficium.NoActionBar">
-        </activity>
+            android:theme="@style/Theme.DivinumOfficium.NoActionBar" />
     </application>
 
 </manifest>

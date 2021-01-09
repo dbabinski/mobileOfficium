@@ -2,19 +2,19 @@ package pl.mobile.divinumofficium;
 
 public class ViewCardModel {
 
-    String title;
+    int title;
     int image;
 
-    public ViewCardModel(String title, int image) {
+    public ViewCardModel(int title, int image) {
         this.title = title;
         this.image = image;
     }
 
-    public String getTitle() {
+    public int getTitle() {
         return title;
     }
 
-    public void setTitle(String title) {
+    public void setTitle(int title) {
         this.title = title;
     }
 
