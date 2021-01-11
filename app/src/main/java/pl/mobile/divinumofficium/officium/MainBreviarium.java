@@ -68,7 +68,7 @@ public class MainBreviarium extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
-        getMenuInflater().inflate(R.menu.menu_scrolling, menu);
+        getMenuInflater().inflate(R.menu.navigation_menu, menu);
         return true;
 
     }

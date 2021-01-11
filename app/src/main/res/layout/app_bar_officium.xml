@@ -57,17 +57,21 @@
     <include layout="@layout/content_scrolling"
         android:id="@+id/content_scrolling_id"/>
 
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         app:layout_behavior=".officium.ui.ScrollFab"
         android:id="@+id/main_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_margin="26dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="?attr/colorPrimary"
         app:layout_anchor="@id/content_scrolling_id"
         app:layout_anchorGravity="bottom|right|end"
         android:clickable="true"
         android:focusable="true"/>
+
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

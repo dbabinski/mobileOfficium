@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator;
+import com.tomer.fadingtextview.FadingTextView;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -20,6 +21,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import pl.mobile.divinumofficium.officium.MainBreviarium;
+
+import static java.util.concurrent.TimeUnit.SECONDS;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,39 +42,11 @@ public class MainActivity extends AppCompatActivity {
 
         
 //        Random text
-        TextView textViewQuoutes = findViewById(R.id.text_quotes);
 
-        quotesArray = getResources().getStringArray(R.array.main_act_quutes);
-
-
-//        Timer timer = new Timer();
-//        TimerTask timerTask = new TimerTask() {
-//            @Override
-//            public void run() {
-//                Random random = new Random();
-//                final int rand = random.nextInt(quotesArray.length);
-//                textViewQuoutes.setText(quotesArray[rand]);
-//            }
-//        };
-//
-//        timer.scheduleAtFixedRate(timerTask, new Date(), 5000);
-//
-//        ERROR
-//        Only the original thread that created a view hierarchy can touch its views
-
-
-
-//        Handler handler = new Handler();
-//        Random random = new Random();
-//        Runnable runnable = new Runnable() {
-//            @Override
-//            public void run() {
-//                Integer i = random.nextInt(quotesArray.length + 1);
-//                textViewQuoutes.setText(quotesArray[i]);
-//
-//                handler.postDelayed(this, 5000);
-//            }
-//        };
+        quotesArray = getResources().getStringArray(R.array.main_act_quotes);
+        FadingTextView ftv = (FadingTextView) findViewById(R.id.text_quotes);
+        ftv.setTexts(quotesArray);
+        ftv.setTimeout(10, SECONDS);
 
 
     }
@@ -92,6 +67,11 @@ public class MainActivity extends AppCompatActivity {
          modelArrayList.add(new ViewCardModel(
                  R.string.mainAct_Preces,
                  R.drawable.third_card
+         ));
+
+         modelArrayList.add(new ViewCardModel(
+                 R.string.calendar_title,
+                 R.drawable.fourth_card
          ));
 
          viewCardAdapter = new ViewCardAdapter(this, modelArrayList);

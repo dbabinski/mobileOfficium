@@ -22,4 +22,5 @@
         android:name="pl.mobile.divinumofficium.officium.fragments.prima.PrimaFragment"
         android:label="@string/menu_prima"
         tools:layout="@layout/prima_fragment" />
+
 </navigation>
