@@ -6,12 +6,27 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_matutinum"
-            android:title="@string/menu_matutinum" />
+            android:title="@string/matutinum_tab_txt" />
         <item
             android:id="@+id/nav_laudes"
-            android:title="@string/menu_laudes" />
+            android:title="@string/laudes_tab_txt" />
         <item
             android:id="@+id/nav_prima"
-            android:title="@string/menu_prima" />
+            android:title="@string/prima_tab_txt" />
+        <item
+            android:id="@+id/nav_tertia"
+            android:title="@string/tertia_tab_txt" />
+        <item
+            android:id="@+id/nav_sexta"
+            android:title="@string/sexta_tab_txt" />
+        <item
+            android:id="@+id/nav_nona"
+            android:title="@string/nona_tab_txt" />
+        <item
+            android:id="@+id/nav_vesperes"
+            android:title="@string/vesperes_tab_txt" />
+        <item
+            android:id="@+id/nav_completorium"
+            android:title="@string/completorium_tab_txt" />
     </group>
 </menu>

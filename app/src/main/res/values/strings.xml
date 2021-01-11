@@ -501,9 +501,6 @@
     <string name="mainAct_Vulgata">Vulgata</string>
     <string name="mainAct_Preces">Preces</string>
 
-    <string name="menu_matutinum">Matutinum</string>
-    <string name="menu_laudes">Laudes</string>
-    <string name="menu_prima">Prima</string>
     <string name="title_activity_main">MainActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

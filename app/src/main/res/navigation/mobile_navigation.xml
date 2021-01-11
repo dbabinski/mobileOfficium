@@ -8,19 +8,49 @@
     <fragment
         android:id="@+id/nav_matutinum"
         android:name="pl.mobile.divinumofficium.officium.fragments.matutinum.MatutinumFragment"
-        android:label="@string/menu_matutinum"
+        android:label="@string/matutinum_tab_txt"
         tools:layout="@layout/matutinum_fragment" />
 
     <fragment
         android:id="@+id/nav_laudes"
         android:name="pl.mobile.divinumofficium.officium.fragments.laudes.LaudesFragment"
-        android:label="@string/menu_laudes"
+        android:label="@string/prima_tab_txt"
         tools:layout="@layout/laudes_fragment" />
 
     <fragment
         android:id="@+id/nav_prima"
         android:name="pl.mobile.divinumofficium.officium.fragments.prima.PrimaFragment"
-        android:label="@string/menu_prima"
+        android:label="@string/prima_tab_txt"
         tools:layout="@layout/prima_fragment" />
+
+    <fragment
+        android:id="@+id/nav_tertia"
+        android:name="pl.mobile.divinumofficium.officium.fragments.tertia.Tertia"
+        android:label="@string/tertia_tab_txt"
+        tools:layout="@layout/tertia_fragment" />
+
+    <fragment
+        android:id="@+id/nav_sexta"
+        android:name="pl.mobile.divinumofficium.officium.fragments.sexta.Sexta"
+        android:label="@string/sexta_tab_txt"
+        tools:layout="@layout/sexta_fragment" />
+
+    <fragment
+        android:id="@+id/nav_nona"
+        android:name="pl.mobile.divinumofficium.officium.fragments.nona.Nona"
+        android:label="@string/nona_tab_txt"
+        tools:layout="@layout/nona_fragment" />
+
+    <fragment
+        android:id="@+id/nav_vesperes"
+        android:name="pl.mobile.divinumofficium.officium.fragments.vesperes.Vesperes"
+        android:label="@string/vesperes_tab_txt"
+        tools:layout="@layout/vesperes_fragment" />
+
+    <fragment
+        android:id="@+id/nav_completorium"
+        android:name="pl.mobile.divinumofficium.officium.fragments.completorium.Completorium"
+        android:label="@string/completorium_tab_txt"
+        tools:layout="@layout/completorium_fragment" />
 
 </navigation>

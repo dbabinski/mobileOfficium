@@ -56,7 +56,9 @@ public class MainBreviarium extends AppCompatActivity {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_matutinum, R.id.nav_laudes, R.id.nav_prima)
+                R.id.nav_matutinum, R.id.nav_laudes, R.id.nav_prima,
+                R.id.nav_tertia, R.id.nav_sexta, R.id.nav_nona,
+                R.id.nav_vesperes, R.id.nav_completorium)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);

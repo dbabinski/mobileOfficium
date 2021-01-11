@@ -9,8 +9,14 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+import androidx.navigation.ui.AppBarConfiguration;
+import androidx.navigation.ui.NavigationUI;
 import androidx.viewpager.widget.ViewPager;
 
+import com.google.android.material.navigation.NavigationView;
 import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator;
 import com.tomer.fadingtextview.FadingTextView;
 
@@ -31,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
     private ViewCardAdapter viewCardAdapter;
     private WormDotsIndicator wormDotsIndicator;
     String[] quotesArray;
+    private AppBarConfiguration mAppBarConfiguration;
+    private DrawerLayout drawer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
         FadingTextView ftv = (FadingTextView) findViewById(R.id.text_quotes);
         ftv.setTexts(quotesArray);
         ftv.setTimeout(10, SECONDS);
-
 
     }
 
